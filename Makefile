@@ -32,3 +32,7 @@ tags:	$(SRC)
 depend:
 	makedepend -Y $(SRC)
 
+install: ltc2309
+	@echo [install]
+	@sudo cp ltc2309 /usr/local/bin
+
